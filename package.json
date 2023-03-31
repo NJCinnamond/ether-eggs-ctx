@@ -1,0 +1,20 @@
+{
+  "name": "hardhat-javascript-starter",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release"
+  },
+  "devDependencies": {
+    "erc721a": "^4.2.3",
+    "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@thirdweb-dev/contracts": "^3",
+    "dotenv": "^16.0.3",
+    "hardhat-deploy": "^0.11.25"
+  }
+}
