@@ -8,7 +8,7 @@ The contract UI code can be found at https://github.com/NJCinnamond/ether-eggs-u
 
 EtherEggs.sol defines an ERC721 contract to handle Ether Egg NFT minting. The contract is initialized with two variables. The first is an array of bytes32 data called coordinateHashes, which correspond to the keccack256 hashes of the latitude and longitude locations of eggs that should be discovered by users to enable minting. The second constructor argument is an array of string data, hints, which correspond to human-readable strings hinting to users as to where the eggs lie. It is expected that the length of both arguments is the same, such that the egg at coordinateHashes[n] can be found by the following the hint at hints[n].
 
-# Minting
+### Minting
 
 To mint an egg, the mintEtherEgg function is called. This function takes four arguments
 - latitude of the egg location guess
